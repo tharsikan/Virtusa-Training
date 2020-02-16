@@ -12,15 +12,15 @@ public class Allocation {
 	String ProjectName;
 	String StartDate;
 	String EndDate;
-	Allocation Allocation[];
-
-	public Allocation[] getAllocation() {
-		return Allocation;
-	}
-
-	public void setAllocation(Allocation[] allocation) {
-		Allocation = allocation;
-	}
+//	Allocation Allocation[];
+//
+//	public Allocation[] getAllocation() {
+//		return Allocation;
+//	}
+//
+//	public void setAllocation(Allocation[] allocation) {
+//		Allocation = allocation;
+//	}
 
 	public Integer getId() {
 		return id;
