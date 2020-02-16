@@ -1,0 +1,14 @@
+This is ONLY LOAD BALANCE part not circuit breaker thing
+_________________________________________________________________________________________________
+PROJECT===DiscoveryService, (AllocaterService ,AllocaterService1)=Same as 2 jars,EmployeeService 
+_________________________________________________________________________________________________
+1. First run discovery service.
+2. Then run Both AllocaterService AllocaterService1. 
+3. AllocaterService port is 8082.
+4. AllocaterService1 port is 0 that mean eureka assign port to it.
+5. I have build copys of AllocaterService use STS IDE so can be switch between consoles(jpg is shown)
+6. Now run Employee service. 
+7. in http://localhost:8761/ (8761= your given port) must show 1employeee and 2 allocater services.
+8. Now send some traffic by web browser or postman by bulk requesting to http://localhost:8081/services/allocation/(id).
+9. request are split between  Both AllocaterService AllocaterService1.
+ 
