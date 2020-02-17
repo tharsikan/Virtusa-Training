@@ -1,0 +1,20 @@
+
+// get data to insert
+http://localhost:3200/services/test
+http://localhost:3300/services/test
+
+
+//insert project details
+http://localhost:3300/services/insert
+//insert employee details
+http://localhost:3200/services/employees
+
+
+
+//Get allocations
+http://localhost:3200/services/allocation/1
+
+
+mysql pass- root
+mysql user- root 
+
